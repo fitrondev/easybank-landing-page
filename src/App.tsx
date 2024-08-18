@@ -1,10 +1,10 @@
-import { Button } from "@/components/ui/button";
+import Navbar from "./components/layouts/Navbar";
 
 const App = () => {
   return (
-    <div>
-      <Button>Click me</Button>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 };
 
