@@ -19,7 +19,7 @@ const MobileMenu = () => {
 
       <div
         className={cn(
-          "w-full fixed left-0 h-[calc(100vh-64px)] flex justify-center bg-black/50 transition-all duration-200 ease-in-out select-none",
+          "w-full fixed left-0 h-[calc(100vh-64px)] flex justify-center bg-black/50 transition-all duration-200 ease-in-out select-none z-50",
           isOpen ? "top-16" : "-top-full"
         )}>
         <div className="w-[360px] h-[300px] mt-5 flex items-center justify-center bg-white border rounded-sm">
