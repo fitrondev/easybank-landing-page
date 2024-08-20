@@ -40,7 +40,7 @@ const Hero = () => {
       <img
         src={Mockups}
         alt=""
-        className="absolute -top-36 sm:-top-60 lg:-inset-y-[130px] lg:-right-32 -z-10"
+        className="absolute -top-36 sm:-top-60 lg:-inset-y-[130px] lg:-right-32 -z-10 lg:z-10"
       />
     </section>
   );
