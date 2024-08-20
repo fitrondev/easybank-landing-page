@@ -5,7 +5,7 @@ import NavMenu from "./NavMenu";
 
 const Navbar = () => {
   return (
-    <header className="shadow-sm bg-background">
+    <header className="shadow-sm bg-background relative z-50">
       <div className="container h-16 flex items-center justify-between">
         <div>
           <img src={Logo} alt="Logo" />
